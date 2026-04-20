@@ -1,4 +1,5 @@
 # Computer-with-8086-Microprocessor
+
 8086 mikroişlemciyi bir bilgisayarmış gibi kullanabilme özellikleri bulundurma.(Güvenlik,Klavye, Hesap Makinesi, Oyun Oynama, Haberleşme Yapabilme).
 Donanım Mimarisi
 Sistemin içerisinde bulunan entegrelerin özellikleri ve işlevleri:

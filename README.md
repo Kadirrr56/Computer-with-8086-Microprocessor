@@ -14,3 +14,17 @@ Oyun Modu: İşlemci mimarisi üzerinde koşan düşük seviyeli oyun mantığı
 Hesap Makinesi: Aritmetik işlemlerin assembly seviyesinde işlenmesi.
 Klavye & Yazı Modu: Karakterlerin tampon belleğe alınması ve LCD üzerinde dinamik olarak görüntülenmesi.
 Tüm sürücüler ve uygulama mantığı optimize edilmiş 8086 Assembly dili ile yazılmıştır.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+The system includes features that allow the 8086 microprocessor to be used as if it were a computer (Security, Keyboard, Calculator, Gaming, Communication).
+Hardware Architecture
+Features and functions of the integrated circuits in the system:
+INTEL 8086 CPU: Dual processor architecture in Master and Slave configuration.
+8251A USART: Serial communication and data exchange between processors.
+8259 PIC: Interrupt-based keyboard input and real-time event management.
+8255 PPI: 16x2 LCD screen drivers and I/O port management.
+74154 Decoder: Advanced I/O addressing with a 4-to-16 line decoder.
+Details of the seemingly simple system's operation:
+Secure Login System: PIN-based user authentication and authorization via System B. Activation occurs when the values ​​defined in the keyboard key configurations match the password defined via assembly. Advanced Communication: Data entered from System B is transferred to System A in real time via USART, or vice versa.
+Gaming Mode: Low-level gaming logic running on the processor architecture.
+Calculator: Arithmetic operations are processed at the assembly level.
+Keyboard & Typing Mode: Characters are stored in buffer memory and dynamically displayed on the LCD. All drivers and application logic are written in optimized 8086 Assembly language.
